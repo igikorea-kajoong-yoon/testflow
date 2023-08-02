@@ -32,7 +32,7 @@ deployKF:
   gateway:
     name: "deploykf-gateway"
     selectorLabels: {"app":"deploykf-gateway","istio":"deploykf-gateway"}
-    hostname: "deploykf.example.com"
+    hostname: "scm.kjcloud.onmetaverses.com"
     ports:
       http: 8080
       https: 8443

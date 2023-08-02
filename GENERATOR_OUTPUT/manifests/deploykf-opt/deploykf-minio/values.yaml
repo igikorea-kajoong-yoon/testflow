@@ -3,8 +3,8 @@
 ########################################
 deployKF_helpers:
   deploykf_gateway:
-    http_endpoint: "deploykf.example.com:8080"
-    https_endpoint: "deploykf.example.com:8443"
+    http_endpoint: "scm.kjcloud.onmetaverses.com:8080"
+    https_endpoint: "scm.kjcloud.onmetaverses.com:8443"
     is_self_signed_cert: true
 
   scripts:
@@ -31,7 +31,7 @@ deployKF:
     namespace: "deploykf-istio-gateway"
     serviceAccount: "deploykf-gateway"
     name: "deploykf-gateway"
-    hostname: "deploykf.example.com"
+    hostname: "scm.kjcloud.onmetaverses.com"
     tls:
       enabled: true
 

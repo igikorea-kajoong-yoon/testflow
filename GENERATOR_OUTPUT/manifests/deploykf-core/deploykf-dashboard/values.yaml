@@ -13,7 +13,7 @@ deployKF:
     namespace: "deploykf-istio-gateway"
     serviceAccount: "deploykf-gateway"
     name: "deploykf-gateway"
-    hostname: "deploykf.example.com"
+    hostname: "scm.kjcloud.onmetaverses.com"
 
 
 ########################################
@@ -93,12 +93,12 @@ centralDashboard:
         iframe: false
         text: Argo Server
         icon: settings-input-composite
-        link: "https://argo-server.deploykf.example.com:8443"
+        link: "https://argo-server.scm.kjcloud.onmetaverses.com:8443"
       - type: item
         iframe: false
         text: Minio Console
         icon: cloud
-        link: "https://minio-console.deploykf.example.com:8443"
+        link: "https://minio-console.scm.kjcloud.onmetaverses.com:8443"
 
     ## quick action links that appear in the home page
     ##
