@@ -3,8 +3,8 @@
 ########################################
 deployKF_helpers:
   deploykf_gateway:
-    http_endpoint: "scm.kjcloud.onmetaverses.com:8080"
-    https_endpoint: "scm.kjcloud.onmetaverses.com:8443"
+    http_endpoint: "scm.kjcloud.onmetaverses.com"
+    https_endpoint: "scm.kjcloud.onmetaverses.com"
     is_self_signed_cert: true
 
   kubeflow_pipelines:

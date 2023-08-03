@@ -34,8 +34,8 @@ deployKF:
     selectorLabels: {"app":"deploykf-gateway","istio":"deploykf-gateway"}
     hostname: "scm.kjcloud.onmetaverses.com"
     ports:
-      http: 8080
-      https: 8443
+      http: 80
+      https: 443
     tls:
       enabled: true
     enableProxyProtocol: false
@@ -80,13 +80,13 @@ gateway:
         protocol: TCP
         targetPort: 15021
       - name: http
-        port: 8080
+        port: 80
         protocol: TCP
-        targetPort: 8080
+        targetPort: 80
       - name: https
-        port: 8443
+        port: 443
         protocol: TCP
-        targetPort: 8443
+        targetPort: 443
 
   resources:
     requests:
